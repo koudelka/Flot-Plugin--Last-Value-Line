@@ -1,0 +1,50 @@
+  === Flot Last Value Line
+
+  == Adds a horizontal line across the chart, at the height of the last value.
+
+  == Usage
+    - If left alone, the plugin will automatically figure view options based
+      on each series' various settings. (same color, half the width, 75% alpha)
+
+    - If you wish to turn on only specific series, you can simply provide an
+      array of series indicies to options['last_value_line']['series']
+
+    - Examples:
+
+      To turn on only series zero and four, with automatic view options:
+
+      last_value_line: {
+        series: [0, 4]
+      }
+
+      To turn on series zero, with a white, half-transparent, 10-thick line:
+
+      last_value_line: {
+        series: {
+          0: {
+            color: '#ffffff',
+            alpha: 0.5,
+            width: 10
+          }
+        }
+      }
+
+
+  == Credits
+    - Authored by Michael Shapiro (koudelka@ryoukai.org)
+    - Many thanks to my employeer, The Hive (thehive.com), for sponsoring the
+      plugin's development and allowing me to give back to the flot community.
+
+  == License
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
