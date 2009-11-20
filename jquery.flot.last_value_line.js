@@ -34,7 +34,7 @@
 
   == Credits
     - Authored by Michael Shapiro (koudelka@ryoukai.org)
-    - Many thanks to my employeer, The Hive (thehive.com), for sponsoring the
+    - Many thanks to my employer, The Hive (thehive.com), for sponsoring the
       plugin's development and allowing me to give back to the flot community.
 
   == License
